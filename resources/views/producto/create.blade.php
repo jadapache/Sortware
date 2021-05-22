@@ -7,7 +7,6 @@
 @stop
 
 @section('content')
-
 <form action="/productos" method="POST" enctype="multipart/form-data">
     @csrf
     <div class="mb-3">
@@ -48,7 +47,7 @@
 @stop
 
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
 @stop
 
 @section('js')

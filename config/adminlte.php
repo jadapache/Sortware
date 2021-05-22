@@ -228,7 +228,7 @@ return [
         [
             'text' => 'search',
             'search' => false,
-            'topnav' => false,
+            'topnav' => true,
         ],
         [
             'text' => 'blog',

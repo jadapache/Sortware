@@ -51,7 +51,7 @@
 @stop
 
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
 @stop
 
 @section('js')

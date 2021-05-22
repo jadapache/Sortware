@@ -1,20 +1,18 @@
 <x-guest-layout>
 
-<div class="flex flex-col h-screen bg-gray-100">
-    <!-- Auth Card Container -->
-    <div class="grid place-items-center mx-2 my-20 sm:my-auto">
-        <!-- Auth Card -->
-        <div class="w-11/12 p-12 sm:w-8/12 md:w-6/12 lg:w-5/12 2xl:w-4/12 
-            px-6 py-10 sm:px-10 sm:py-6 
-            bg-white rounded-lg shadow-md lg:shadow-lg">
-    <div>
-      <img class="mx-auto h-12 w-auto" src="vendor/adminlte/dist/img/Logofull.svg" alt="Workflow">
-      <h2 class="mt-8 text-center text-3xl font-extrabold text-gray-900">
-        Restablecimiento de contraseña
-      </h2>
-      <p class="text-center"> Por favor ingresa de nuevo tu dirección de correo electrónico y la contraseña que deseas asignar a tu cuenta </p>
-    </div>
-<x-jet-validation-errors class="mb-4" />
+  <div class="h-screen bg-gray-100 flex flex-col space-y-10 justify-center items-center">
+    <!-- Auth Card -->
+    <div class="w-11/12 p-12 sm:w-8/12 md:w-6/12 lg:w-4/12 2xl:w-4/12 
+    px-6 py-10 sm:px-10 sm:py-6 bg-white rounded-lg shadow-md lg:shadow-lg">
+
+<div>
+  <img class="mx-auto h-12 w-auto" src="https://sortware.ml/assets/img/logo.png" alt="Sortware">
+  <h2 class="mt-1 text-center text-3xl font-extrabold text-gray-900">
+    Restablecimiento de contraseña
+  </h2>
+  <p class="text-center"> Por favor ingresa de nuevo tu dirección de correo electrónico y la contraseña que deseas asignar a tu cuenta</p>
+  <x-jet-validation-errors class="mb-2"/>
+</div>
     <form class="mt-8 space-y-6" action="{{ route('password.update') }}" method="POST">
     @csrf
     input type="hidden" name="token" value="{{ $request->route('token') }}">
@@ -52,7 +50,6 @@
    <div class="flex justify-center text-gray-500 text-sm mt-8">
         <p>&copy;2021. All right reserved.</p>
       </div>
-</div>
 </div>
 </div>
 </div>

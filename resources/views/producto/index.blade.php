@@ -3,7 +3,7 @@
 @section('title', 'Sortware | Inicio')
 
 @section('content_header')
-    <h2>Listado de productos</h2>
+<h2 class="font-semibold text-xl text-gray-800 leading-tight">Listado de productos</h2>
 @stop
 
 @section('content')
@@ -27,6 +27,8 @@
                     <th scope="col" style="text-align: center">Acciones</th>
                 </tr>
             </thead>
+            @include('sweetalert::alert')
+
             <tbody>
         @foreach ($productos as $producto)
         
@@ -88,9 +90,8 @@
 @stop
 
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
     <link href= "https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap5.min.css" rel=stylesheet>
-    <link rel="stylesheet" type="text/css" href="/css/estilos.css" media="screen" />
 @stop
 
 @section('js')

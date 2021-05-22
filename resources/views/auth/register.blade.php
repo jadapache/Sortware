@@ -6,7 +6,7 @@
         px-6 py-10 sm:px-10 sm:py-6 
         bg-white rounded-lg shadow-md lg:shadow-lg">
     <div>
-      <img class="mx-auto h-12 w-auto" src="vendor/adminlte/dist/img/Logofull.svg" alt="Workflow">
+      <img class="mx-auto h-12 w-auto" src="vendor/adminlte/dist/img/LogoFull.svg" alt="Sortware">
       <h2 class="mt-2 text-center text-3xl font-extrabold text-gray-900">
         Creación de cuenta
       </h2>

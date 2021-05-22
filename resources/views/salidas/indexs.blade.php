@@ -78,9 +78,8 @@
 @stop
 
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
+<link rel="stylesheet" type="text/css" href="/css/styles.css">
     <link href= "https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap5.min.css" rel=stylesheet>
-    <link rel="stylesheet" type="text/css" href="/css/estilos.css" media="screen" />
 @stop
 
 @section('js')

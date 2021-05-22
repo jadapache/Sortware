@@ -163,7 +163,7 @@
         <ul class="nav flex-column">
 
         <a id="download"
-                download="Demandasemana.jpg" 
+                download="ChartImage.jpg" 
                 href=""
                 class="btn btn-dark float-right bg-flat-color-1"
                 title="Descargar Gráfico 1" >
@@ -171,7 +171,7 @@
                 </a>
 
                 <a id="download2"
-                download="Demandames.jpg" 
+                download="ChartImage.jpg" 
                 href=""
                 class="btn btn-dark float-right bg-flat-color-1 mt-2"
                 title="Descargar Gráfico 2" >
@@ -181,7 +181,7 @@
               </a>
 
               <a id="download3"
-                download="Demandamespasado.jpg" 
+                download="ChartImage.jpg" 
                 href=""
                 class="btn btn-dark float-right bg-flat-color-1 mt-2"
                 title="Descargar Gráfico 3" >
@@ -466,7 +466,6 @@
 
 
     @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
     <link href= "https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap5.min.css" rel="stylesheet">
 @stop
 

@@ -2,7 +2,7 @@
 <td class="header">
 <a href="{{ $url }}" style="display: inline-block;">
 @if (trim($slot) === 'Laravel')
-<img src="vendor/adminlte/dist/img/Logofull.svg" class="logo" alt="Sortware Logo">
+<img class="mx-auto h-12 w-auto" src="https://sortware.ml/assets/img/logo.png" alt="Sortware">
 @else
 {{ $slot }}
 @endif

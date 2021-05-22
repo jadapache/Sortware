@@ -46,7 +46,6 @@ class ProductoController extends Controller
     public function create()
     {
         abort_if(Gate::denies('product_access'), Response::HTTP_FORBIDDEN, '403 Forbidden');
-        alert()->success('Creación exitosa','El producto se registrado satisfactoriamente');
         return view('producto.create');
     }
 
@@ -71,7 +70,7 @@ class ProductoController extends Controller
         $productos -> precio = $request -> get('precio');
         $productos -> costo = $request -> get('costo');
         $productos -> save();
-
+        alert()->success('Creación exitosa','El producto se registrado satisfactoriamente');
         return redirect('/productos');
 
     }
